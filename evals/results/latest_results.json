@@ -1,0 +1,9 @@
+{
+  "num_cases": 1,
+  "results": [
+    {
+      "case_id": "sum_001",
+      "rendered_preview": "Summarize the following into exactly 5 concise bullet points:\n\nAcme revenue grew 18% to $42M; margin improved from 12% to 16%; risks include EMEA slowdown."
+    }
+  ]
+}

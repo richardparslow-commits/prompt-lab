@@ -22,4 +22,4 @@ render:
 	$(PY) scripts/render_prompt.py --prompt "$(PROMPT)" --input "$(INPUT)"
 
 eval:
-	$(PY) evals/run_eval.py --dataset evals/datasets/sample_eval_set.jsonl --output evals/results/latest_results.json
+	PYTHONPATH=. $(PY) evals/run_eval.py --dataset evals/datasets/sample_eval_set.jsonl --output evals/results/latest_results.json
